@@ -20,6 +20,11 @@ iframe {
     width: 100%;
     height: 100%;
 }
+
+.googlemaps {
+    height: 50%;
+}
+
 /* Image Gallery */
 
 .row {
