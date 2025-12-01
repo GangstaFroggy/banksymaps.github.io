@@ -5,7 +5,7 @@
 nav {
     background: lightgray;
     width: 100%;
-    min-height: 60px;
+    min-height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,8 +28,14 @@ nav ul li {
     margin: 10px 20px;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
 body {
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .split-section {
@@ -53,6 +59,11 @@ iframe {
 
 .googlemaps {
     height: 50%;
+    margin-top: 16px;
+}
+
+.map-date {
+    text-align: right;
 }
 
 /* Image Gallery */
@@ -85,8 +96,8 @@ iframe {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1);
+    
 }
-
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -102,4 +113,15 @@ iframe {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+/* Content formatting */
+.italics {
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.content p {
+    padding: 5px;
 }
