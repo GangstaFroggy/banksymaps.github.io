@@ -115,6 +115,13 @@ iframe {
   }
 }
 
+/* responsive layout for left/right side on mobile devices*/
+@media screen and (max-width: 600px) {
+    .split-section {
+        flex-direction: column;
+    }
+}
+
 /* Content formatting */
 .italics {
     font-style: italic;
