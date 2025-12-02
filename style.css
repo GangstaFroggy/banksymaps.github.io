@@ -1,10 +1,11 @@
 * {
     margin: 0;
     overflow: hidden;
+    color: #3c3b34;
 }
 
 nav {
-    background: lightgray;
+    background: #ededed;
     width: 100%;
     min-height: 50px;
     display: flex;
@@ -36,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
     font-size: 20px;
 }
@@ -104,8 +105,7 @@ iframe {
 .column img:hover {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1);
-    
+    transform: scale(1.1);   
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
