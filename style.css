@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    overflow: hidden;
 }
 
 nav {
@@ -113,6 +114,13 @@ iframe {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+/* responsive layout for left/right side on mobile devices*/
+@media screen and (max-width: 600px) {
+    .split-section {
+        flex-direction: column;
+    }
 }
 
 /* Content formatting */
